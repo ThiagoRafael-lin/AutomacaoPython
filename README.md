@@ -20,12 +20,12 @@ pip install -r requirements.txt
 Passo 2: Geração do Banco de Dados (ETL)
 Rode o script de Backend para gerar o banco de dados gestao_clientes.db:
 
-Bash
+Bash:
 python etl_popula_bd.py
 
 
 Passo 3: Inicialização do Dashboard
 Inicie o aplicativo web Streamlit. O dashboard será aberto automaticamente no seu navegador:
 
-Bash
+Bash:
 streamlit run app_dashboard.py
