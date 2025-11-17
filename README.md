@@ -1,5 +1,3 @@
-Assunto: Entrega: Desafio Fullstack - Sistema de Gestão de Clientes LUX Energia
-
 1. Visão Geral da Solução
 Tecnologias: Python, Pandas, SQLite e Streamlit.
 
