@@ -1,7 +1,7 @@
 ## 🐍 Sistema de Gestão e Análise de Clientes
 
 ## 🌟 Visão Geral da Solução
-Este projeto implementa uma solução completa de ETL (Extract, Transform, Load) e visualização de dados, utilizando Python. O objetivo é automatizar o processamento de dados brutos de clientes e fornecer uma interface web intuitiva para análise e gestão. A solução divide-se em duas partes principais:Backend (ETL): Script em Python/Pandas para limpeza, transformação e carga dos dados em um banco SQLite. Frontend (Dashboard): Aplicação interativa desenvolvida com Streamlit para visualização e gestão dos dados.
+Este projeto implementa uma solução completa de ETL (Extract, Transform, Load) e visualização de dados, utilizando Python. O objetivo é automatizar o processamento de dados brutos de clientes e fornecer uma interface web intuitiva para análise e gestão. A solução divide-se em duas partes principais: Backend (ETL): Script em Python/Pandas para limpeza, transformação e carga dos dados em um banco SQLite. Frontend (Dashboard): Aplicação interativa desenvolvida com Streamlit para visualização e gestão dos dados.
 
 ## 🛠️ Tecnologias Utilizadas
 
