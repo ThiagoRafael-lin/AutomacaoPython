@@ -1,6 +1,7 @@
 ## 🐍 Sistema de Gestão e Análise de Clientes
 
-## 🌟 Visão Geral da SoluçãoEste projeto implementa uma solução completa de ETL (Extract, Transform, Load) e visualização de dados, utilizando Python. O objetivo é automatizar o processamento de dados brutos de clientes e fornecer uma interface web intuitiva para análise e gestão.A solução divide-se em duas partes principais:Backend (ETL): Script em Python/Pandas para limpeza, transformação e carga dos dados em um banco SQLite.Frontend (Dashboard): Aplicação interativa desenvolvida com Streamlit para visualização e gestão dos dados.
+## 🌟 Visão Geral da Solução
+Este projeto implementa uma solução completa de ETL (Extract, Transform, Load) e visualização de dados, utilizando Python. O objetivo é automatizar o processamento de dados brutos de clientes e fornecer uma interface web intuitiva para análise e gestão.A solução divide-se em duas partes principais:Backend (ETL): Script em Python/Pandas para limpeza, transformação e carga dos dados em um banco SQLite.Frontend (Dashboard): Aplicação interativa desenvolvida com Streamlit para visualização e gestão dos dados.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -28,24 +29,19 @@ Para testar a aplicação no seu ambiente local, siga estes três passos.
 - Passo 1: Preparação do Ambiente
 Instale as bibliotecas e dependências necessárias listadas no arquivo requirements.txt:
 
-Bash
-
+Bash:
 pip install -r requirements.txt
-
 
 - Passo 2: Geração do Banco de Dados (ETL)
 O script de Backend irá ler o arquivo Excel de origem, realizar a limpeza e popular o banco de dados gestao_clientes.db.
 
-Bash
-
+Bash:
 python etl_popula_bd.py
-
 
 - Passo 3: Inicialização do Dashboard
 Inicie o aplicativo web Streamlit. O dashboard será aberto automaticamente no seu navegador padrão.
 
-Bash
-
+Bash:
 streamlit run app_dashboard.py
 
 ## 📝 Detalhes dos Arquivos
